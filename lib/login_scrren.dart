@@ -35,6 +35,7 @@ class _LoginScreenState extends State<LoginScreen> {
               height: 40,
             ),
             TextField(
+              toolbarOptions: const ToolbarOptions(copy: true, paste: true),
               decoration: InputDecoration(
                   focusedBorder: OutlineInputBorder(
                       borderSide: const BorderSide(

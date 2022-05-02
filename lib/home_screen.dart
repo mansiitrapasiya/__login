@@ -28,6 +28,7 @@ class HomeScreen extends StatelessWidget {
             height: 30,
           ),
           TextField(
+            toolbarOptions: const ToolbarOptions(copy: true,paste: true),
             decoration: InputDecoration(
                 focusedBorder: OutlineInputBorder(
                     borderSide: const BorderSide(
@@ -49,6 +50,7 @@ class HomeScreen extends StatelessWidget {
             height: 30,
           ),
           TextField(
+            toolbarOptions: const ToolbarOptions(copy: true,paste: true),
             decoration: InputDecoration(
                 focusedBorder: OutlineInputBorder(
                     borderSide: const BorderSide(
